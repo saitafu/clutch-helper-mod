@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mlgassist",
+  "version": "1.0.0",
+  "name": "MLG Assist AI",
+  "description": "Automatic MLG clutch assistant.",
+  "authors": ["MLG Assist"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.mlgassist.MLGAssistMod"],
+    "client": ["com.mlgassist.ClientInit"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

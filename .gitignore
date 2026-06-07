@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large downloads and distributions
+gradle-9.4.1/
+gradle-9.4.1-bin.zip
+.remote-clutch-helper-mod/
+
+# Build artifacts
+*.jar
+*.class
